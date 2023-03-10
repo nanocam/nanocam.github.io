@@ -131,7 +131,7 @@
   <body>
         <br>
           <center>
-          <span style="font-size:32px">Thin On-Sensor Nanophotonic Array Cameras</span><br><br><br>
+          <span style="font-size:32px">Thin On-Sensor Nanophotonic Array Cameras</span><br>
 
           </center>
           <table align="center" width="800px">
@@ -146,25 +146,8 @@
 
         </tbody></table><br>
 
-          
-          <table align="center" width="700px">
-            <tbody><tr>
-              <br>
-             
 
-              <td align="center" width="200px">
-                <center>
-                  <br>
-                  <span style="font-size:20px">
-                    <a href="">[Anonymized Paper]</a>
-                  </span>
-                </center>
-              </td>
-
-            </tr></tbody>
-          </table>
-
-        <br><hr><br>
+        <!-- <hr><br>
         <table align="center" width="800px">
           <tbody><tr>
 
@@ -180,65 +163,54 @@
         </p>
 
             </tr>
-          </tbody></table>
+          </tbody></table> -->
 
-        <br>
-      <hr>
-        <br>
-        <center>
-          <h2>
-            Abstract 
-          </h2>
-        </center>
-        <br>
-        
-        <p>
-        <left>
-        <span style="font-size:16px">
-     Today's commodity camera systems rely on compound optical systems to map light originating from the scene to positions on the sensor where it gets recorded as an image. To achieve an accurate mapping without optical aberrations, i.e., deviations from Gauss' linear model of optics, typical lens systems introduce increasingly complex stacks of optical elements which are responsible for the height of existing commodity cameras. In this work, we investigate flat nanophotonic computational cameras as an alternative that employs an array of skewed lenslets and a learned reconstruction method. The optical array is embedded in a metasurface that, at 700~nm height, is flat and sits on the sensor cover glass at 2.5~mm focal distance from the sensor. To tackle the highly chromatic response of a metasurface and design the array over the entire sensor, we propose a differentiable optimization method that samples continuously over the spectrum and that factorizes the optical modulation for different optical fields into individual lenses. We reconstruct a megapixel image from our flat imager with a learned probabilistic reconstruction method that employs a generative diffusion model to sample an implicit prior. To tackle scene-dependent aberrations in broadband, we propose a method for acquiring paired captured training data in varying illumination conditions. We assess the proposed flat camera design in simulation and with an experimental prototype, validating that the method is capable of recovering images from diverse scenes in broadband with a single nanophotonic layer.
-        </span> 
-        </left>
-      </p>
-      <br><br>
 
       <hr>
       <br>
       <center>
         <h2>
-          Additional Results
+          Comparison with Tseng et al. 2021
         </h2>
     </center>
     <br>
 
     <left>
     <span style="font-size:16px"> 
-    We provide qualitative results for a variety of indoor and outdoor scene in-the-wild and compare the performance of the proposed nanophotonic array camera with Tseng et al. 2021 as requested by the reviewers. <br><br>
+    We provide a variety of indoor and outdoor scenes in-the-wild and compare the performance of the proposed nanophotonic array camera with Tseng et al. 2021. <br>
     </span> 
     </left>
     <br>
 
     <center>
-        <img class="rounded"  src="./images/results_1.pdf" width="800px">
+        <img class="rounded"  src="./images/tseng_comparison.png" width="800px">
     </center>
     <br><br>
 
+         <hr>
+      <br>
+      <center>
+        <h2>
+          Additional Comparisons with Compound Lens Camera
+        </h2>
+    </center>
+    <br>
 
-      <br><br>
+    <left>
+    <span style="font-size:16px"> 
+    We provide a variety of indoor and outdoor scenes captured in-the-wild and compare the performance of the proposed nanophotonic array camera with compound lens groundtruth camera. <br>
+    </span> 
+    </left>
+    <br>
+
+    <center>
+        <img class="rounded"  src="./images/additional_results.png" width="800px">
+    </center>
+    <br><br>
+
       <hr>
       <br>
 
-      <table align="center" width="800px"><tbody>
-        <tr><td width="400px">
-          <left>
-            <center>
-              <h2>
-
-              </h2>
-            </center>
-            
-        </left>
-      </td></tr>
-    </tbody></table>
     <br><br><br><br><br><br>
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
